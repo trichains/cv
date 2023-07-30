@@ -129,7 +129,7 @@ body {
   flex-shrink: 0;
 }
 
-.projetos a {
+a {
   text-decoration: underline;
   color: #f7f7f7;
   font-size: 7.5px;
@@ -140,7 +140,7 @@ body {
   left: 29px;
 }
 
-.projetos blockquote {
+blockquote {
   color: #fff7c2;
   font-size: 4.5px;
   font-style: normal;
@@ -164,4 +164,80 @@ body {
 
 .projetos blockquote:nth-of-type(2) {
   top: 62px;
+}
+
+.projetos a:nth-of-type(3) {
+  top: 72px;
+}
+
+.projetos blockquote:nth-of-type(3) {
+  top: 82px;
+}
+
+.projetos a:nth-of-type(4) {
+  top: 92px;
+}
+
+.projetos blockquote:nth-of-type(4) {
+  top: 102px;
+}
+
+.projetos a:nth-of-type(5) {
+  top: 112px;
+}
+
+.projetos blockquote:nth-of-type(5) {
+  top: 122px;
+}
+
+.cursos {
+  position: absolute;
+  left: 225px;
+  top: 147px;
+  width: 139.5px;
+  height: 137px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.25);
+  background: #0E0E0E;
+  flex-shrink: 0;
+}
+
+.cursos a:nth-of-type(1) {
+  top: 32px;
+}
+
+.cursos blockquote:nth-of-type(1) {
+  top: 42px;
+}
+
+.cursos a:nth-of-type(2) {
+  top: 52px;
+}
+
+.cursos blockquote:nth-of-type(2) {
+  top: 62px;
+}
+
+.cursos a:nth-of-type(3) {
+  top: 72px;
+}
+
+.cursos blockquote:nth-of-type(3) {
+  top: 82px;
+}
+
+.cursos a:nth-of-type(4) {
+  top: 92px;
+}
+
+.cursos blockquote:nth-of-type(4) {
+  top: 102px;
+}
+
+.cursos a:nth-of-type(5) {
+  top: 112px;
+}
+
+.cursos blockquote:nth-of-type(5) {
+  top: 122px;
 }
