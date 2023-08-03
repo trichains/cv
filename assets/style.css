@@ -198,7 +198,7 @@ blockquote {
   height: 137px;
   border-radius: 10px;
   box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.25);
-  background: #0E0E0E;
+  background: #0e0e0e;
   flex-shrink: 0;
 }
 
@@ -240,4 +240,206 @@ blockquote {
 
 .cursos blockquote:nth-of-type(5) {
   top: 122px;
+}
+
+.habilidades {
+  position: relative;
+  top: 304px;
+  left: 26.5px;
+  width: 183.5px;
+  height: 114px;
+  border-radius: 10px;
+  box-shadow: -1px -1px 2px 0px rgba(0, 0, 0, 0.15);
+  background: #0e0e0e;
+  flex-shrink: 0;
+}
+
+.marcadores {
+  position: absolute;
+  left: 36.5px;
+  width: 6.5px;
+  height: 6.5px;
+  border-radius: 1.5px;
+  flex-shrink: 0;
+}
+
+.habilidades p {
+  position: absolute;
+  color: #f7f7f7;
+  font-size: 6px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  left: 51.5px;
+}
+
+.habilidades :nth-child(2) {
+  top: 33.5px;
+  border: 1px solid #fec090;
+  background: rgba(254, 202, 161, 0.9);
+  box-shadow: 0px 0px 2px 0px rgba(254, 202, 161, 0.5);
+}
+
+.habilidades :nth-child(3) {
+  top: 33px;
+}
+
+.habilidades :nth-child(4) {
+  top: 48.5px;
+  border: 1px solid #94b1f3;
+  box-shadow: 0px 0px 2px 0px #a5bdf5;
+  background: #a5bdf5;
+}
+
+.habilidades :nth-child(5) {
+  top: 48px;
+}
+
+.habilidades :nth-child(6) {
+  top: 63.5px;
+  border: 1px solid #7eebb5;
+  box-shadow: 0px 0px 2px 0px #92eec0;
+  background: #92eec0;
+}
+
+.habilidades :nth-child(7) {
+  top: 63px;
+}
+
+.habilidades :nth-child(8) {
+  top: 78.5px;
+  border: 1px solid #6c6c6c;
+  box-shadow: 0px 0px 2px 0px #323330;
+  background: #717171;
+}
+
+.habilidades :nth-child(9) {
+  top: 78px;
+}
+
+.habilidades :nth-child(10) {
+  top: 93.5px;
+  border: 1px solid #83c2e9;
+  box-shadow: 0px 0px 2px 0px #83c2e9;
+  background: #96cbec;
+  flex-shrink: 0;
+}
+
+.habilidades :nth-child(11) {
+  top: 93px;
+}
+
+.hobbies {
+  position: absolute;
+  top: 304px;
+  left: 225px;
+  width: 139.5px;
+  height: 114px;
+  border-radius: 10px;
+  box-shadow: -1px -1px 2px 0px rgba(0, 0, 0, 0.2);
+  background: rgba(14, 14, 14, 0.8);
+  flex-shrink: 0;
+  z-index: 1;
+}
+
+.hobbies-icones {
+  position: absolute;
+  top: 25px;
+  width: 35px;
+  height: 35px;
+  border-radius: 3.5px;
+  background: #202020;
+  flex-shrink: 0;
+}
+
+.hobbies-icones img {
+  position: absolute;
+  left: 5px;
+  width: 25px;
+  height: 25px;
+  background: cover no-repeat;
+  flex-shrink: 0;
+}
+
+.hobbies p {
+  position: absolute;
+  color: #F7F7F7;
+  font-size: 7.5px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hobbies :nth-child(2) {
+  left: 25px;
+  border-radius: 3.5px;
+  background: #202020;
+  flex-shrink: 0;
+}
+
+.hobbies :nth-child(3) {
+  top: 50.5px;
+  left: 32.5px;
+}
+
+.hobbies :nth-child(4) {
+  left: 79.5px;
+  border-radius: 3.5px;
+  background: #202020;
+  flex-shrink: 0;
+}
+
+.hobbies :nth-child(5) {
+  top: 50.5px;
+  left: 91px;
+}
+
+.hobbies :nth-child(6) {
+  top: 66.5px;
+  left: 25px;
+  border-radius: 3.5px;
+  background: #202020;
+  flex-shrink: 0;
+}
+
+.hobbies :nth-child(7) {
+  top: 92px;
+  left: 31px;
+}
+
+.hobbies :nth-child(8) {
+  top: 66.5px;
+  left: 79.5px;
+  border-radius: 3.5px;
+  background: #202020;
+  flex-shrink: 0;
+}
+
+.hobbies :nth-child(9) {
+  top: 92px;
+  left: 81.5px;
+}
+
+
+.footer {
+  position: absolute;
+  top: 438px;
+  left: 26.5px;
+  width: 338px;
+  height: 26px;
+  border-radius: 5px;
+  box-shadow: -1px 0px 2px 0px rgba(0, 0, 0, 0.20);
+  background: #0E0E0E;
+  flex-shrink: 0;
+  z-index: 1;
+}
+
+.circle2 {
+  border-radius: 50%;
+  background-color: #f0d84f;
+  width: 407.5px;
+  height: 407.5px;
+  position: absolute;
+  left: 251px;
+  top: 357px;
 }
