@@ -363,7 +363,7 @@ blockquote {
 
 .hobbies p {
   position: absolute;
-  color: #F7F7F7;
+  color: #f7f7f7;
   font-size: 7.5px;
   font-style: normal;
   font-weight: 700;
@@ -420,7 +420,6 @@ blockquote {
   left: 81.5px;
 }
 
-
 .footer {
   position: absolute;
   top: 438px;
@@ -428,10 +427,69 @@ blockquote {
   width: 338px;
   height: 26px;
   border-radius: 5px;
-  box-shadow: -1px 0px 2px 0px rgba(0, 0, 0, 0.20);
-  background: #0E0E0E;
+  box-shadow: -1px 0px 2px 0px rgba(0, 0, 0, 0.2);
+  background: #0e0e0e;
   flex-shrink: 0;
   z-index: 1;
+}
+
+.footer img {
+  position: absolute;
+  top: 6.5px;
+  left: 20px;
+  width: 12.5px;
+  height: 12.5px;
+  flex-shrink: 0;
+}
+
+.footer a {
+  text-decoration: none;
+  position: absolute;
+  color: #f7f7f7;
+  font-size: 7px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer :nth-child(1) {
+  top: 6.5px;
+  left: 20px;
+}
+
+.footer :nth-child(2) {
+  top: 8.5px;
+  left: 37.5px;
+}
+
+.footer :nth-child(3) {
+  top: 7px;
+  left: 116.5px;
+}
+
+.footer :nth-child(4) {
+  top: 8px;
+  left: 134px;
+}
+
+.footer :nth-child(5) {
+  top: 7px;
+  left: 164.5px;
+}
+
+.footer :nth-child(6) {
+  top: 8.5px;
+  left: 182px;
+}
+
+.footer :nth-child(7) {
+  top: 7.5px;
+  left: 252.5px;
+}
+
+.footer :nth-child(8) {
+  top: 8.5px;
+  left: 269.5px;
 }
 
 .circle2 {
